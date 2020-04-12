@@ -15,3 +15,9 @@ List of currently supported commands
 ### How to write your own commands
 Writing complex and multifaceted commands should be remarkably easy with this implementation! Each command must inherit from the Command class.
 Simply add your command in the Commands folder and be sure to rollup all methods to teh get_response method.
+
+### Examples
+
+Typing `spotify kanye` into the address bar leads you to 
+
+![Spotify](https://github.com/koolguru/Bunny2020/tree/master/assets/spotify.png)
