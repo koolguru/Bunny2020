@@ -6,8 +6,8 @@ Inspired by Facebook's [bunnylol](https://github.com/ccheever/bunny1) search eng
 [Installation](https://github.com/koolguru/Bunny2020/blob/master/INSTALLATION.md)
 
 
-### Commands
-List of currently supported commands
+### Example Commands
+Some commands that are currently implemented
 
 * `spotify [insert query]` search spotify
 * `sound [insert query]` search soundcloud
