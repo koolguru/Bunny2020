@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>jack_bunny help page</title>
+		<style type="text/css">
+        	.container {
+        		padding-top: 15px;
+            }
+    	</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<p> Here are a list of commands currently availabe on Bunny 2020 </p>
+			<ul>
+				{% for n in command_list %}
+				<li>{{n}}</li>
+				{% endfor %}
+			</ul>
+			<p> For any suggestions, reach out to me! <a href="jaytayade.com">Jay Tayade</a>! </p>	
+		</div>
+	</body>
+</html>

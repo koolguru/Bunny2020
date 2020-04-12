@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Home of Bunny2020</title>
+		<style type="text/css">
+			.container {
+				padding-top: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<p> This is inspired by the bunnylol search engine at facebook. Bunny is a Shortcut Tool This iteration is primarily based on Jack Yang's
+				<a href="https://github.com/jackyang127/jack_bunny">jack_bunny</a> which in turn was released by Charlie Cheever at <a href="https://github.com/ccheever/bunny1">bunny1.</a>
+				This iteration has a couple advantages over jack_bunny. Commands are now decoupled from the overall implementation and are now standalone classes.
+				Each command can now implement much more complex functionality and can have multiple keywords. In this way it maps more closely to Facebook's current implementation.
+				Adding commands is as simple as adding a new file in the Commands folder and overriding the Command class.
+			  </p>
+			<h2> What can Bunny2020 do for me? </h2>
+			<ul>
+				<li> Enter g [query] to automatically carry out a Google search </li>
+				<li> Enter spotify [query] to automatically search spotify </li>
+				<li> Enter sound [query] to access the hottest drops from the latest artists</li>
+				<li> Anything else you may dream up!</li>
+				<li> Type 'help' into your address bar to see which commands are currently available </li>
+			<ul>
+			<h2> Installing on Google Chrome (Local run) </h2>
+			<ul>
+				<li> Clone the repo, run bash local_run.sh to start a local flask server </li>
+				<li> Open settings. Scroll down to the section where it says "Search engine" </li>
+				<li> Click 'Manage search engines'. Next to 'Other search engines', click the ADD button </li>
+				<li> Name the 'Search engine' and 'Keyword' field whatever you want. Inside the URL field, paste this: http://http://127.0.0.1:5000/q/?query=%s </li>
+				<li> Set this search engine to your default </li>
+				<li> Profit? </li>
+			<ul>
+		</div>
+	</body>
+</html>
