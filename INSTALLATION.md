@@ -12,6 +12,7 @@ Note: I'll make this easier one day, I promise!
 * Start the app by running `bash run.sh` 
   * This runs Bunny2020 in the background with gunicorn running on a specific port number and display the url used for search queries
   * If you have any issues, or want to test your extensions, run `bash local_run.sh` (This starts flask directly)
+  * You can kill Bunny2020 by running `bash kill.sh`
 * In Chrome, Open settings. Scroll down to the section where it says "Search engine"
 * Click 'Manage search engines'. Next to 'Other search engines', click the ADD button 
 * Name the 'Search engine' and 'Keyword' field whatever you want. Inside the URL field, paste the url returned from the bash script (e.g `http://127.0.0.1:5000/q/?query=%s`)
