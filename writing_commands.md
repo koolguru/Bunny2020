@@ -12,7 +12,7 @@ Just remember to make sure to call those methods in get_response!
 
 You can define a simple shortcut like this
 
-``` 
+```python
 from command import Command
 
 class Google(Command):
