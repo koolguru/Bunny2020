@@ -5,7 +5,7 @@ Inspired by Facebook's [bunnylol](https://github.com/ccheever/bunny1) search eng
 ### Commands
 List of currently supported commands
 
-* `spotify [insert class number]` search spotify
+* `spotify [insert query]` search spotify
 * `sound [insert query]` search soundcloud
 * `youtube [insert query]` search youtube
 * `github  [insert query]` search github
