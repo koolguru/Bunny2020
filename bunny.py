@@ -34,7 +34,7 @@ def route():
 	except Exception as e:
 		# fallback option is to google search
 		print(e)
-		return redirect(COMMAND_MAP['g'](option_args))
+		return redirect(COMMAND_MAP['g'](query))
 
 if __name__ == '__main__':
 	app.run()
