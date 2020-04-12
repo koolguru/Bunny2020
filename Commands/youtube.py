@@ -16,7 +16,7 @@ class Youtube(Command):
         return [
             "yt",
             "youtube",
-            "tube"
+            "tube", 
         ]
 
     def get_description(self):

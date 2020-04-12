@@ -1,5 +1,6 @@
+#!/usr/bin/python3
+
 from flask import request, Flask, render_template, redirect
-import wikipedia
 from command_utils import build_command_map
 
 app = Flask(__name__)
@@ -12,6 +13,8 @@ def index():
 
 @app.route('/q/')
 def route():
+	global COMMAND_MAP 
+	global COMMAND_LIST
 	#process the query
 	try:
 		query = str(request.args.get('query', ''))
