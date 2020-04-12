@@ -9,6 +9,9 @@ Inspired by Facebook's [bunnylol](https://github.com/ccheever/bunny1) search eng
 ### Example Commands
 Some commands that are currently implemented
 
+* `reddit [insert query]` search reddit
+  * `reddit r [insert query]` search sub reddits
+* `netflix movies` jump to netflix movies
 * `spotify [insert query]` search spotify
 * `sound [insert query]` search soundcloud
 * `youtube [insert query]` search youtube
