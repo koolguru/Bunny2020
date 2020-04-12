@@ -17,8 +17,7 @@ List of currently supported commands
 * `help` returns a list of usable commands
 
 ### How to write your own commands
-Writing complex and multifaceted commands should be remarkably easy with this implementation! Each command must inherit from the Command class.
-Simply add your command in the Commands folder and be sure to rollup all methods to the get_response method.
+Writing complex and multifaceted commands should be remarkably easy with this implementation! Check out [this guide](https://github.com/koolguru/Bunny2020/blob/master/writing_commands.md) for more details.
 
 ### Examples
 
