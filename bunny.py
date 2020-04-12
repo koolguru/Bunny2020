@@ -25,6 +25,7 @@ def route():
 		search_command = query
 		option_args = None
 	
+	# Call the appropriate command
 	try:
 		if search_command == 'help':
 			return render_template('help.html', command_list = COMMAND_LIST)

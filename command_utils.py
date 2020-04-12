@@ -6,6 +6,11 @@ import pkgutil
 from collections import namedtuple
 
 def build_command_map():
+    '''
+        In order to decouple the commands from the rest of the codebase, 
+        this util dynamically imports the commands classes from the Commands package.
+        This allows us to build and store a map from command to functionality 
+    '''
     for (module_loader, name, ispkg) in pkgutil.iter_modules(['Commands/']):
         importlib.import_module('Commands.' + name,package=Commands)
 
