@@ -1,6 +1,6 @@
 from command import Command
 
-class Spotify(Command):
+class Github(Command):
     
     def __init__(self):
         super()
@@ -8,15 +8,16 @@ class Spotify(Command):
     
     def get_response(self, arg=None):
         if arg:
-            return 'https://open.spotify.com/search/{0}'.format(arg)
+            return 'https://github.com/search?q={}'.format(arg) 
         else:
-            return 'http://open.spotify.com'
-    
+            return 'https://github.com'
+
     def get_keywords(self):
         return [
-            "spotify",
-            "spoti",
+            "git",
+            "github",
+            "gh"
         ]
 
     def get_description(self):
-        return "Searches Spotify"
+        return "Searches Github"

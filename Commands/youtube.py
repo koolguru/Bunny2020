@@ -1,6 +1,6 @@
 from command import Command
 
-class Google(Command):
+class Youtube(Command):
     
     def __init__(self):
         super()

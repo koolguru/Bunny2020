@@ -1,6 +1,6 @@
 from command import Command
 
-class Google(Command):
+class Soundcloud(Command):
     
     def __init__(self):
         super()
