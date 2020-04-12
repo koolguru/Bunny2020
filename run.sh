@@ -14,7 +14,7 @@ else
     echo "Setting port $PORT_NUM"
 fi 
 
-gunicorn -b 127.0.0.1:$PORT_NUM bunny:app -p bunny.pid -D
+gunicorn --workers=3 -b 127.0.0.1:$PORT_NUM bunny:app -p bunny.pid -D
 
 echo "Bunny2020 is running at http://127.0.0.1:$PORT_NUM/" 
 echo "Success! Set http://127.0.0.1:$PORT_NUM/q/?query=%s as your search url to get started" 
