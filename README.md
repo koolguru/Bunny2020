@@ -9,6 +9,7 @@ List of currently supported commands
 * `g [insert query]` searching google
 * `spotify [insert class number]` search spotify
 * `sound [insert query]` search souncloud
+* `youtube [insert query]` search youtube
 * `help` returns a list of usable commands
 
 ### How to write your own commands
