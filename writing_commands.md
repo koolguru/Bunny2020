@@ -6,7 +6,7 @@ When you add a shortcut, Bunny2020 will automatically build a mapping from keywo
 The end result is that you should not have to edit any files aside from your own shortcut!
 
 ### Defining a Shortcut
-A shortcut is simply a python class that inherits from the command class. Each command needs to implement the methods
+A shortcut is simply a python class that inherits from the command class and lives in the `Commands` folder. Each command needs to implement the methods
 `get_response`, `get_keywords`, and `get_description`. Beyond this a shortcut can use any functionality available in Python. 
 Just remember to make sure to call those methods in get_response!
 
