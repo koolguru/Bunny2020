@@ -20,4 +20,4 @@ Simply add your command in the Commands folder and be sure to rollup all methods
 
 Typing `spotify kanye` into the address bar leads you to 
 
-![Spotify](https://github.com/koolguru/Bunny2020/tree/master/assets/spotify.png)
+![](https://github.com/koolguru/Bunny2020/blob/master/assets/spotify.png?raw=true)
